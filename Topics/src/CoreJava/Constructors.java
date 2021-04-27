@@ -7,7 +7,7 @@ public class Constructors {
 		
 	}
 	public Constructors(int a) {
-		a=a;
+		int a=a;
 		System.out.println(+a);
 	}
 //	public Constructors(int a, int b) {

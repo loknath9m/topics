@@ -21,7 +21,7 @@ public class handlingDragables {
         
         Actions action=new Actions(driver);
         action.dragAndDrop(pickup, dropto).build().perform();
-        action.dragAndDropBy(dropto, 0, 0)
+        action.dragAndDropBy(dropto, 0, 0);
 
 	}
 
